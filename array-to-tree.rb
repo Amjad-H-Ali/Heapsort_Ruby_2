@@ -5,5 +5,8 @@ p "Array To Tree Ruby"
 def max_heap array, indx, size
 	# Default value of largest indx is parent indx
 	largest = indx
-	
+
+	# Left and right children nodes' index
+	left  = (indx * 2) + 1
+	right = left + 1
 end	
