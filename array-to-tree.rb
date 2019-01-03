@@ -14,5 +14,12 @@ def max_heap array, indx, size
 	if left < size and array[left] > array[largest]
 		largest = left
 	end
+
+	# If right child is greater than parent, set largest variable equal to its index
+	if right < size and array[right] > array[largest]
+		largest = right
+	end
+	
+
 		
 end	
