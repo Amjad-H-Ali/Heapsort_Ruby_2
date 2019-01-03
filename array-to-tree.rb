@@ -1,4 +1,4 @@
-p "Array To Tree Ruby"
+p "Heap Sort Ruby!"
 
 # Function that arranges given array into max heap
 # meaning all parent nodes are greater than children
@@ -19,7 +19,9 @@ def max_heap array, indx, size
 	if right < size and array[right] > array[largest]
 		largest = right
 	end
-	
+
+
+
 
 		
 end	
