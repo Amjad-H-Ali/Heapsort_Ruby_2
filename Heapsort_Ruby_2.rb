@@ -20,8 +20,13 @@ def max_heap array, indx, size
 		largest = right
 	end
 
+	# If parent is not the largest after all, swap it with the largest
+	# Reccursively do the same down the tree
+	if largest != indx
 
+		swap(array, largest, indx)
 
-
+		max_heap(array, largest, size)
+	end	
 		
 end	
