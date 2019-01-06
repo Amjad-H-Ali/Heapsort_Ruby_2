@@ -30,3 +30,12 @@ def max_heap array, indx, size
 	end	
 		
 end	
+
+# Function that swaps elements in array
+def swap array, indx1, indx2
+	temp = array[indx1]
+
+	array[indx1] = array[indx2]
+
+	array[indx2] = temp
+end	
