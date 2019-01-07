@@ -39,3 +39,8 @@ def swap array, indx1, indx2
 
 	array[indx2] = temp
 end	
+
+# Function will pass index of each parent node into max heap function.
+# Once array is in max heap, it will swap root node with last node, delete last node, and make effected array into max heap again.
+def heapsort array
+end	
