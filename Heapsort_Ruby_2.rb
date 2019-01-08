@@ -43,4 +43,6 @@ end
 # Function will pass index of each parent node into max heap function.
 # Once array is in max heap, it will swap root node with last node, delete last node, and make effected array into max heap again.
 def heapsort array
+	
+	size = array.length
 end	
