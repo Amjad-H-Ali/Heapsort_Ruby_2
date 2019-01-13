@@ -58,4 +58,8 @@ def heapsort array
 
 		max_heap(array, 0, indx)
 	}
+
+	array 
 end	
+
+p heapsort [10, 0, 8, 42, 12, 11, 9, 67, 4, 0]
