@@ -45,4 +45,8 @@ end
 def heapsort array
 	
 	size = array.length
+
+	# Call max_heap for each parent node
+	(size/2 - 1).downto(0) {|indx| max_heap(array, indx, size)}
+
 end	
